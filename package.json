@@ -1,0 +1,12 @@
+{
+  "name": "upsc-prep",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm start"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
